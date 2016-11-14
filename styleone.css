@@ -1,0 +1,242 @@
+/*
+dark-green: #003B48|(0,59,72)
+light-green: #CCCC33|
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Source Serif Pro', serif;
+font-family: 'Sintony', sans-serif;
+
+-show levels of hierarch
+-calendar styles
+-header/subheads
+-pullquotes
+-logo above color field
+*/
+
+.green {
+  color: #CCCC33;
+  width: 60%;
+  text-align: left;
+  background-color: rgba(0,0,0,0.80);
+  padding: 20px;
+  font-size: 2.3vmin;
+  font-family: 'Source Serif Pro', serif;
+  line-height: 1.5;
+  position: absolute;
+  z-index: 0;
+  margin: auto;
+  border: none;
+  margin-top: 35%;
+}
+
+body {
+  background-color: white;
+  margin: auto;
+}
+
+.nav-bar {
+  width: 100%;
+  background-color: black;
+  margin: auto;
+  position: fixed;
+  height: 55px;
+  text-align: center;
+  z-index: 1;
+}
+
+.nav-ul {
+    background-color: black;
+    margin: auto;
+    padding: 15px 0 0 0;
+  }
+
+li {
+    display: inline;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.8vmin;
+    color: white;
+    border: none;
+    padding: 30px;
+    border-collapse: collapse;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.black {
+  width: 100%;
+  height: 1280px;
+  margin: auto;
+  background-color: black;
+  z-index: -1;
+}
+
+.top-image {
+  position: absolute;
+  z-index: 0;
+  width: 60%;
+  height: auto;
+  background-color: none;
+  margin: auto;
+  border: none;
+  margin-top: 18%;
+}*/
+
+figure {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: auto;
+  z-index: -1;
+}
+
+.body-content {
+  width: 60%;
+  height: 100%;
+  background-color: none;
+  margin: auto;
+  border:0;
+}
+
+.span {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.85);
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  z-index: -1;
+}
+
+h1 {
+  font-family: 'Sintony', sans-serif;
+  font-size: 300%;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #CCCC33;
+  padding-top: 50px;
+}
+
+h2 {
+  font-family: 'Sintony', sans-serif;
+  font-size: 150%;
+  font-weight: bold;
+  color: #003B48;
+  margin-top: 0px;
+}
+
+h3 {
+  font-family: 'Sintony', sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  width: 100%;
+  font-weight: normal;
+}
+
+h4 {
+  font-family: 'Sintony', sans-serif;
+  font-size: 75%;
+  line-height: 1.5;
+  width: 100%;
+  font-weight: normal;
+}
+
+p {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 150%;
+  line-height: 1.5;
+  width: 100%;
+  padding-right: 50px;
+}
+
+.paragraph-holder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  display:-webkit-flex;
+}
+
+.floating-text {
+  background-color: (0,59,72,.5)
+}
+
+.day {
+  margin-bottom: 5px;
+  background-color: #003B48;
+}
+
+.alt-day {
+  margin-bottom: 5px;
+  background-color: #CCCC33
+}
+
+.alt-alt-day {
+  margin-bottom: 5px;
+  background-color: rgba(0,0,0,0.25);
+}
+
+.calendar {
+  margin: auto;
+  padding-top: 0px;
+  width: 60%;
+
+}
+
+.calendar-span {
+  width: 100%;
+  height: 100%;
+  padding: 10px 0px 0px 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin: auto;
+  display: flex;
+  display:-webkit-flex;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(0,0,0,0.25);
+  background-color: none;
+}
+
+.calendar-span-alt {
+  width: 100%;
+  height: 100%;
+  padding: 10px 0px 0px 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  display:-webkit-flex;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+  background-color: none;
+}
+
+.calendar-info {
+  color: none;
+  padding: 20px 20px 20px 50px;
+  width: 40%;
+}
+
+.g-text {
+  color:#CCCC33;
+  font-weight: bolder;
+}
+
+.w-text {
+  color: white;
+  width: 100%;
+}
+
+.b-text {
+  color: black;
+}
+
+.gg-text {
+  color: #003B48;
+}
